@@ -1,0 +1,29 @@
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: url("/img/drops.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header h2 {
+    color: rgb(211, 127, 16);
+    font-family: "Lobster", cursive;
+}
+
+.contactUs {
+    opacity: .75;
+}
+
+.navbar {
+    background-color: rgba(211, 127, 16, 0.60);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
