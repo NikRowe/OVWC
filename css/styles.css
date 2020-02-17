@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(214, 167, 106);
+}
 .jumbotron {
     margin: 0;
     padding: 30px;
@@ -17,13 +20,36 @@ header h2 {
 }
 
 .navbar {
-    background-color: rgba(211, 127, 16, 0.60);
+    background-color: rgb(214, 167, 106);
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel {
-    border: solid #5637DD;
+.carousel-item {
+    height: 700px;
+    size: cover;
+    position: 50% 50%;
 }
+
+.row-content {
+    padding: 10px 0;
+    border-bottom: 1px ridge;
+    min-height: 150px; 
+}
+
+.iconLinks {
+    color: rgb(214, 167, 106);
+}
+
+.linkDeck {
+    height: 8%;
+}
+
+.site-footer {
+    padding: 20px 0; }
+
+    .contactBtn {
+        color: rgb(0, 0, 0);
+    }
