@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(214, 167, 106);
+    background-color: rgb(255, 255, 255);
 }
 .jumbotron {
     margin: 0;
@@ -34,22 +34,46 @@ header h2 {
 }
 
 .row-content {
-    padding: 10px 0;
-    border-bottom: 1px ridge;
+    padding: 25px;
     min-height: 150px; 
 }
 
-.iconLinks {
+.textOrange {
     color: rgb(214, 167, 106);
 }
 
-.linkDeck {
-    height: 8%;
+.bgOrange {
+    background-color: rgb(214, 167, 106);
 }
 
 .site-footer {
     padding: 20px 0; }
 
-    .contactBtn {
+.contactBtn {
         color: rgb(0, 0, 0);
     }
+
+.infoRow {
+        align-content: center;
+    }
+
+.bgBlue {
+    background-color: rgba(17, 48, 228, 0.75);
+}
+
+.textBlue {
+    color: rgba(17, 48, 228, 0.75);
+}
+
+.linkRow {
+    height: 50px;
+    padding: 75px;
+}
+
+.edgeSpan {
+    width: 100%;
+}
+
+.iconCard {
+    overflow: hidden;
+}
