@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "OVWC",
   "version": "1.0.0",
-  "description": "Bootstrap Proj",
+  "description": "OVWC Bootstrap Proj",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
@@ -15,9 +15,9 @@
   "author": "Nik Rowe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NikRowe/OVWC.git-/issues"
+    "url": "https://github.com/NikRowe/OVWC-/issues"
   },
-  "homepage": "https://github.com/NikRowe/OVWC.git-#readme",
+  "homepage": "https://github.com/NikRowe/OVWC-#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
