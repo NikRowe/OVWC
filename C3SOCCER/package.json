@@ -1,9 +1,11 @@
 {
   "name": "c3soccer",
   "version": "1.0.0",
-  "description": "",
+  "description": "C3SOCCER PROJ",
   "main": "(index.html)",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/NikRowe/C3SOCCER-/issues"
   },
-  "homepage": "https://github.com/NikRowe/C3SOCCER-#readme"
+  "homepage": "https://github.com/NikRowe/C3SOCCER-#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
 }

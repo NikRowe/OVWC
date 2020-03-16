@@ -1,0 +1,108 @@
+:root {
+    --c3Red: #D30005;
+    --c3Blue: #0462C1;
+    --c3Yellow: #F5B80A;
+}
+
+.modal-header {
+    background-color: var(--c3Red);
+    color: white;
+    font-family: "Lobster", cursive;
+}
+
+.modal-body {
+    background-color: white;
+    color: var(--c3Blue);
+}
+
+h1 {
+    font-family: "Lobster", cursive;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  /* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 30px;
+    padding-top: 0px;
+  }
+
+.logoOverlay {
+    position: relative;
+    max-width: 500px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logoOverlay {
+        max-width: 90%; !important;
+    }
+}
+
+.welcomeBtn:hover{
+    background-color: var(--c3Yellow);
+    color: var(--c3Blue);
+}
+
+.welcomeBtn {
+    background-color: var(--c3Blue);
+    color: white;
+    border-radius: 48%;
+    
+}
+
+.coachBtn {
+    background-color: var(--c3Blue);
+    color: var(--c3Yellow);
+}
+
+.coachBtn:hover{
+    background-color: var(--c3Yellow);
+    color: var(--c3Blue);
+}
+
+.btmBtn {
+    margin-bottom: -22px;
+}
+
+.navbar {
+    background-color: white;
+}
+.nav-link {
+    color: var(--c3Blue);
+}
+.nav-link:hover {
+    color: white;
+    background-color: var(--c3Blue);
+    border: 1px solid #5bc0de;
+    font-weight: bold;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(17, 48, 228, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.navbar-toggler {
+    border-color: var(--c3Blue);
+  } 
+
+.aboutDrop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: white;
+}
+
+.aboutUs:hover .aboutDrop {
+    display: block;
+}

@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikRowe/Portfolio-.git"
+    "url": "git+https://github.com/NikRowe/OVWC.git"
   },
   "author": "Nik Rowe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NikRowe/Portfolio-/issues"
   },
-  "homepage": "https://github.com/NikRowe/Portfolio-#readme",
+  "homepage": "https://github.com/NikRowe/OVWC.git-#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
